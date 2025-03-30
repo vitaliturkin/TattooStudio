@@ -12,10 +12,6 @@ A responsive, modern website template for a Tattoo Studio. Built with HTML, CSS 
 - 🧭 Smooth navigation and section transitions
 - 🧼 Clean SCSS structure for maintainability
 
-## 📸 Screenshots
-
-> Add screenshots here to showcase different sections: homepage, artist profiles, gallery, booking form, etc.
-
 ## 🔧 Tech Stack
 
 - HTML5
