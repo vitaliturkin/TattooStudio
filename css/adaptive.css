@@ -1,0 +1,155 @@
+@media screen and (max-width: 1200px) {
+    .service-card__img {
+        width: 600px;
+        height: 300px;
+    }
+
+    :is(.service-card, .footer__row1, .benefits ) {
+        gap: 150px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .service-card__img {
+        width: 450px;
+        height: auto;
+    }
+
+    :is(.service-card, .footer__row1, .benefits ) {
+        gap: 110px;
+    }
+
+    .footer__logo {
+        font-size: 15px;
+    }
+
+    .footer__menu li a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .service-card__title {
+        margin-top: 0;
+    }
+
+    .benefits {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        background: #181818;
+    }
+
+    .contacts {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .service-card__img {
+        width: 300px;
+    }
+    .nav__logo {
+        font-size: 14px;
+    }
+
+    .service-card__title {
+        margin-bottom: 45px;
+    }
+    .footer {
+        padding-top: 32px;
+    }
+    .footer__row1 {
+        grid-template-columns: 1fr;
+        padding-bottom: 0;
+        gap: 50px;
+    }
+    .footer__menu {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .nav{
+        font-size: 14px;
+        flex-direction: column;
+    }
+    .nav__logo {
+        margin-bottom: 20px;
+    }
+    .hero__title {
+        font-size: 22px;
+    }
+    .hero__button {
+        font-size: 12px;
+    }
+    .benefits {
+        padding-top: 82px;
+        padding-bottom: 62px;
+    }
+    .services {
+        padding-bottom: 70px;
+    }
+    .service-card {
+        grid-template-columns: 1fr;
+    }
+    .service-card__img {
+        display: none;
+    }
+    .benefits_items {
+        grid-template-columns: 1fr;
+    }
+
+    .accordion__button {
+        font-size: 18px;
+    }
+    .accordion__button::after {
+display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about h2 {
+        margin-top: 98px;
+        margin-bottom: 20px;
+    }
+    .about p {
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+    .services h2 {
+        margin-bottom: 50px;
+    }
+    .services__grid {
+        gap: 50px;
+    }
+    .footer__menu {
+        margin-bottom: 30px;
+    }
+
+    .benefits {
+        gap: 60px;
+    }
+
+    input {
+        width: 200px;
+    }
+    .contact__info h3, .contact__info p {
+        margin-top: 20px;
+    }
+
+    .contact__form form button {
+        width: 250px;
+    }
+
+    .contact__info-p {
+        padding-top: 70px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
