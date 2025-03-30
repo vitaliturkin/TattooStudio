@@ -81,6 +81,7 @@ body {
 
 .hero {
     padding-bottom: 141px;
+    display: ruby;
 }
 
 .hero__title {
